@@ -1,7 +1,8 @@
 # MomentousApp
 
 Projeto Angular: Calendário de Tarefas
-Descrição:
+
+## Descrição:
 
 Este projeto Angular implementa um calendário de tarefas onde o usuário pode adicionar, editar e excluir tarefas. As tarefas são armazenadas localmente no navegador.
 
