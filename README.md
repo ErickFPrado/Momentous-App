@@ -1,5 +1,41 @@
 # MomentousApp
 
+Projeto Angular: Calendário de Tarefas
+Descrição:
+
+Este projeto Angular implementa um calendário de tarefas onde o usuário pode adicionar, editar e excluir tarefas. As tarefas são armazenadas localmente no navegador e podem ser visualizadas em diferentes visualizações, como mês, semana e dia.
+
+## Funcionalidades:
+
+Adicionar novas tarefas com título, data e hora de início e fim, descrição e cor.
+Editar tarefas existentes, alterando qualquer um dos campos.
+Excluir tarefas.
+Visualizar tarefas em diferentes visualizações: mês, semana e dia.
+Navegar entre as visualizações do calendário.
+Arrasar e soltar tarefas para alterar a data e hora.
+Clique duplo em uma tarefa para abri-la em um modal para edição.
+As tarefas são armazenadas localmente no navegador usando o armazenamento web.
+Tecnologias:
+
+Angular
+TypeScript
+HTML5
+CSS3
+Material Design
+Requisitos:
+
+Node.js instalado
+Familiaridade com Angular e TypeScript
+Conhecimento básico de HTML5 e CSS3
+
+## Observações:
+
+As tarefas são armazenadas localmente no navegador e serão perdidas se o navegador for fechado ou o cache for limpo.
+Este projeto é um exemplo básico e pode ser expandido para incluir funcionalidades adicionais, como notificações, lembretes e integração com calendários externos.
+Contribuições:
+
+Se você tiver sugestões ou melhorias para este projeto, sinta-se à vontade para contribuir no repositório do GitHub.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
 
 ## Development server

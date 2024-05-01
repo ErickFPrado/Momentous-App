@@ -1,0 +1,44 @@
+<div mat-dialog-title>
+    <h1>Task Form</h1>
+</div>
+
+<form [formGroup]="taskForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content>
+        <mat-form-field appearance="outline" class="first-field">
+            <mat-label>Title</mat-label>
+            <input matInput type="text" formControlName="title">
+        </mat-form-field>
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>Description</mat-label>
+            <textarea matInput formControlName="description"></textarea>
+        </mat-form-field>
+    </div>
+    
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>Date</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="date">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Time</mat-label>
+            <input matInput type="time" formControlName="time">
+        </mat-form-field>
+    </div>
+    
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>Time Duration</mat-label>
+            <input matInput type="time" formControlName="timeDuration">
+        </mat-form-field>
+    </div>
+    <div mat-dialog-actions class="action">
+        <button mat-raised-button type="button" [mat-dialog-close]="false">Close</button>
+        <button mat-raised-button color="primary" type="submit">{{data ? 'Uptade' : 'Save'}}</button>
+    </div>
+    </div>
+</form>
