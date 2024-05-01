@@ -7,22 +7,24 @@ Este projeto Angular implementa um calendário de tarefas onde o usuário pode a
 
 ## Funcionalidades:
 
-Adicionar novas tarefas com título, data e hora de início e fim, descrição e cor.
+Adicionar novas tarefas com título, descrição, data e hora de início, e duração da tarefa.
 Editar tarefas existentes, alterando qualquer um dos campos.
 Excluir tarefas.
 Visualizar tarefas em diferentes visualizações: mês, semana e dia.
 Navegar entre as visualizações do calendário.
-Arrasar e soltar tarefas para alterar a data e hora.
-Clique duplo em uma tarefa para abri-la em um modal para edição.
 As tarefas são armazenadas localmente no navegador usando o armazenamento web.
-Tecnologias:
+
+
+## Tecnologias:
 
 Angular
 TypeScript
 HTML5
 CSS3
 Material Design
-Requisitos:
+
+
+## Requisitos:
 
 Node.js instalado
 Familiaridade com Angular e TypeScript
