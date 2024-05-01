@@ -3,7 +3,7 @@
 Projeto Angular: Calendário de Tarefas
 Descrição:
 
-Este projeto Angular implementa um calendário de tarefas onde o usuário pode adicionar, editar e excluir tarefas. As tarefas são armazenadas localmente no navegador e podem ser visualizadas em diferentes visualizações, como mês, semana e dia.
+Este projeto Angular implementa um calendário de tarefas onde o usuário pode adicionar, editar e excluir tarefas. As tarefas são armazenadas localmente no navegador.
 
 ## Funcionalidades:
 
