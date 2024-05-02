@@ -11,3 +11,15 @@
 mat-form-field {
     width: 100%;
 }
+
+.toolbar {
+    background-color: #3D2B3D;
+}
+
+.name-app {
+    color: #CBEFB6;
+}
+
+.success-button {
+    background-color: #CBEFB6;
+}
