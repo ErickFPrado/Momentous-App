@@ -1,3 +1,60 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "id": "21ff",
+      "title": "1 - Visualização Tabela",
+      "description": "Alterar a visualização da tabela para formato de calendário",
+      "date": "2024-05-04T03:00:00.000Z",
+      "time": "12:00",
+      "timeDuration": "01:00"
+    },
+    {
+      "id": "c4d9",
+      "title": "2 - Filtro calendário",
+      "description": "Filtro de dia, semana e hora",
+      "date": "2024-05-04T03:00:00.000Z",
+      "time": "15:00",
+      "timeDuration": "01:00"
+    },
+    {
+      "id": "c16f",
+      "title": "3 - Banco de dados",
+      "description": "Implementar banco de dados: SQLite para login de usuários e tasks",
+      "date": "2024-05-11T03:00:00.000Z",
+      "time": "12:00",
+      "timeDuration": "01:00"
+    },
+    {
+      "id": "69a3",
+      "title": "4 - Login",
+      "description": "Implementação de cadastro de novos usuários e tela de login",
+      "date": "2024-05-11T03:00:00.000Z",
+      "time": "13:00",
+      "timeDuration": "01:00"
+    },
+    {
+      "id": "a70c",
+      "title": "6 - Tags",
+      "description": "Implementação de tags nas tarefas",
+      "date": "2024-05-12T03:00:00.000Z",
+      "time": "17:00",
+      "timeDuration": "18:00"
+    },
+    {
+      "id": "9669",
+      "title": "7 - API",
+      "description": "Com a visualização de calendário, conectar com API de feriado e destacá-los.",
+      "date": "2024-05-18T03:00:00.000Z",
+      "time": "12:00",
+      "timeDuration": "01:00"
+    },
+    {
+      "id": "4c49",
+      "title": "8 - Dashboard",
+      "description": "Gráfico de resolução de tarefas;\nGráfico de tags com maior número de tarefas resolvidas;",
+      "date": "2024-05-25T03:00:00.000Z",
+      "time": "12:00",
+      "timeDuration": "12:00"
+    }
+  ]
 }
