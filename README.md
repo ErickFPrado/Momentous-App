@@ -16,26 +16,23 @@ As tarefas são armazenadas localmente no navegador usando o armazenamento web.
 
 ## Tecnologias:
 
-Angular
-TypeScript
-HTML5
-CSS3
-Material Design
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- Material Design
 
 
 ## Requisitos:
 
-Node.js instalado
-Familiaridade com Angular e TypeScript
-Conhecimento básico de HTML5 e CSS3
+- Node.js instalado
+- Familiaridade com Angular e TypeScript
+- Conhecimento básico de HTML5 e CSS3
 
 ## Observações:
 
-As tarefas são armazenadas localmente no navegador e serão perdidas se o navegador for fechado ou o cache for limpo.
-Este projeto é um exemplo básico e pode ser expandido para incluir funcionalidades adicionais, como notificações, lembretes e integração com calendários externos.
-Contribuições:
-
-Se você tiver sugestões ou melhorias para este projeto, sinta-se à vontade para contribuir no repositório do GitHub.
+- As tarefas são armazenadas localmente no navegador e serão perdidas se o navegador for fechado ou o cache for limpo.
+- Este projeto é um exemplo básico e pode ser expandido para incluir funcionalidades adicionais, como notificações, lembretes e integração com calendários externos.
 
 ## Development server
 
