@@ -5,7 +5,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatInputModule } from '@angular/material/input';
 import { MatNativeDateModule, provideNativeDateAdapter } from '@angular/material/core';
-import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ApiService } from '../services/api.service';
 import { CoreService } from '../core/core.service';
 
@@ -31,11 +31,11 @@ export class TaskFormComponent implements OnInit{
     private _coreService: CoreService
   ) {
     this.taskForm = this._fb.group({
-      title: '',
+      title: ['', Validators.required],
       description: '',
-      date: '',
-      time: '',
-      timeDuration: '',
+      date: ['', Validators.required],
+      time: ['', Validators.required],
+      timeDuration: ['', Validators.required],
     })
   }
 
