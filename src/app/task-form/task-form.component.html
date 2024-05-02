@@ -1,8 +1,8 @@
-<div mat-dialog-title>
+<div mat-dialog-title class="title-form">
     <h1>Task Form</h1>
 </div>
 
-<form [formGroup]="taskForm" (ngSubmit)="onFormSubmit()">
+<form [formGroup]="taskForm" (ngSubmit)="onFormSubmit()" class="form">
     <div mat-dialog-content>
         <mat-form-field appearance="outline" class="first-field">
             <mat-label>Title</mat-label>

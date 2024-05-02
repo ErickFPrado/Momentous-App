@@ -14,6 +14,9 @@ mat-form-field {
 
 .toolbar {
     background-color: #3D2B3D;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .name-app {
@@ -22,4 +25,9 @@ mat-form-field {
 
 .success-button {
     background-color: #CBEFB6;
+}
+
+.background {
+    background-color: #CBEFB6;
+    height: 100vh;
 }
